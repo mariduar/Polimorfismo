@@ -1,0 +1,12 @@
+  # Metódo _hash_ para permitir que objetos Livro sejam adicionados a conjuntos
+def  _hash_(self):
+    return hash((self.título, self.autor))
+    # Metódo_repr_para representar o objeto Livro como basestring
+    def _repr_(self):
+        return f" Livro(titulo='{self.titulo}', autor='{self.autor}', ano={self.ano})"
+        
+        # Criando três instâncias da classe Livro
+        livro1 = Livro("1984", "George Orwell", 1949)
+        livro2 = Livro("1984", "George Orwell", 1950)
+        livro3 = Livro("Brave New World", "Aldous Huxley", 1932)
+    

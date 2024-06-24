@@ -1,0 +1,12 @@
+# Definindo uma classe Livro
+class Livro:
+    def _init_(self, título, autor, ano):
+        self.título = título
+        self.autor = autor
+        self.ano = ano
+        
+    # Metódo _eq_ para comparar dois objetos Livro
+    def_eq_(self, outro):
+        if isistance(outro, Livro):
+            return self.titulo == outro.titulo and self.autor == outro.autor
+            return False

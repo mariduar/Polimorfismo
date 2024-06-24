@@ -1,0 +1,8 @@
+# Subclasse Caminhao 
+class Caminhao(Veículo):
+    def calcular_custo(self, distancia):
+        return distancia * 1.0 # Exemplo: custo de R$1,00 por km
+        
+# Criando uma lista de veículos 
+veiculos = [Carro(), Bicicleta(), Caminhao()]
+distancia = 200 # Exemplo de distância

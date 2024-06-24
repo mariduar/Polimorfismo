@@ -1,0 +1,9 @@
+ # Importando a biblioteca numpy
+ import numpy as np
+ from abc import ABC, abstractmethod
+ 
+  # Classe base Veículo com metódo abstrato calcular_custo
+  class Veículo(ABC):
+      @abstractmethod
+      def calcular_custo(self, distancia):
+          pass

@@ -1,0 +1,6 @@
+ # Comparando os livros usando o metódo __eq_
+ print("livro1 é igual a livro2?", livro1 == livro2) # Deve retornar True
+ print("livro1 é igual a livro3?", livro1 == livro3) # Deve retornar False
+ # Adcionando os livros a um conjunto
+ conjunto_livros = {livro1, livro2, livro3}
+print("Conjunto de livros:", conjunto_livros) # Deve conter livro1 e livro3, pois livro1 e livro2 são iguais    

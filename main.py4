@@ -1,0 +1,7 @@
+
+# Calculando o custos usando polimorfismo e armazenamento em um array numpy
+custos = np.array([veículo.calcular_custo(distancia) for veículo in veiculo])
+
+# Exibindo os resultados
+print("Custos de viagem para cada veículo:", custos)
+print("Custo total da viagem:", np.sum(custos))

@@ -1,0 +1,9 @@
+# Subclasse Carro
+class Carro(Veículo):
+    def calcular_custo(elf, distancia):
+        return distancia * 0.5  # Exemplo: custo de R$0,50 por km
+        
+# Sbclasse Bicicleta 
+class Bicicleta(Veículo):
+    def calcular_custo(self, distancia):
+        return distancia * 0.1  # Exemplo: custo de R$ 0,10 por km 
